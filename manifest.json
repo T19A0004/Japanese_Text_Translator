@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Japanese Text Translator",
+    "version": "1.0",
+    "description": "Translates selected Japanese text to English and provides pronunciation guidance.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "all_frames": true,
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
