@@ -1,7 +1,0 @@
-拡張機能をパッケージ化
-次のファイルを作成しました:
-
-拡張機能: C:\Users\riksiev.komiljon\Desktop\chrome_extension_test.crx
-鍵ファイル: C:\Users\riksiev.komiljon\Desktop\chrome_extension_test.pem
-
-鍵ファイルは安全な場所に保管してください。拡張機能の新しいバージョンの作成時に必要となります。
