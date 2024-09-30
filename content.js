@@ -26,7 +26,7 @@ function createPopup(translatedText, romaji) {
     popup.style.maxWidth = '250px';
     popup.style.wordWrap = 'break-word';
     popup.style.lineHeight = '1.5';
-    popup.style.zIndex = 1000; // Ensure it appears on top
+    popup.style.zIndex = 9999; // Ensure it appears on top
 
     return popup;
 }
